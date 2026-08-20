@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="lang_flag" src="Group 3.png">
+        <h1>Калькулятор ИМТ</h1>
+    </header>
+
+    <main>
+        <form>
+            <div class="height-input">
+                <p class="height">введите ваш рост (см)</p>
+                <input type="text" id="height">
+            </div>
+
+            <div class="weight-input">
+                <p class="weight">введите ваш вес (кг)</p>
+                <input type="text" id="weight">
+            </div>
+            <div class="sex-choice">
+                <p class="sex">ваш пол</p>
+                <div class="buttons-sex">
+                    <button type="button" class="female" id="fem">женский</button>
+                    <button type="button" class="male" id="male">мужской</button>
+                </div>
+            </div>
+            
+        </form>
+        <button type="submit" class="count-button" id="count-button">рассчитать</button>
+        <p class="result-text">ваш результат:</p>
+        <span class="result-number" id="result-number">00.00</span>
+        <span class="additional" id="addit">(дефицит веса)</span>
+    </main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
