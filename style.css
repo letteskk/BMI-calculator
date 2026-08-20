@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+header {
+    position: relative;
+    height: 71px;
+    min-width: 100%;
+    background: #D89908;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.lang_flag {
+    width: 42px;
+    height: 30px;
+    position: absolute;
+    left: 107px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 405px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    width: 405px;
+    
+}
+
+p {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+}
+
+input {
+    display: flex;
+    width: 100%;
+    max-width: 405px;
+    height: 50px;
+    border-radius: 10px;
+    border: 7px solid #D89908;
+    margin-top: 12px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.sex-choice {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sex {
+    display: flex;
+    font-size: 24px;
+}
+
+.buttons-sex {
+    width: 405px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 12px;
+    gap: 16px;
+}
+
+.female {
+    width: 195px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #F2116D;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.male {
+    width: 195px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #0847D8;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.count-button {
+    width: 405px;
+    height: 55px;
+    background: #D89908;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.result-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.result-number {
+    font-size: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.additional {
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    color: #C0080B;
+    text-align: center;
+}
+
+@media(max-width: 600px) {
+    main {
+        width: 250px;
+    }
+    form {
+        width: 250px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .lang_flag {
+        width: 30px;
+        height: 21px;
+        left: 7px;
+    }
+    input {
+        width: 250px;
+        height: 40px;
+        border: 5px solid #D89908;
+    }
+    .buttons-sex {
+        width: 250px;
+        justify-content: center;
+    }
+    .female {
+        width: 120px;
+        height: 30px;
+        font-size: 16px;
+        border-radius: 7px;
+    }
+    .male {
+        width: 120px;
+        height: 30px;
+        font-size: 16px;
+        border-radius: 7px;
+    }
+    .count-button {
+        width: 250px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .sex {
+        font-size: 16px;
+    }
+    .result-number {
+        font-size: 32px;
+        text-align: center;
+    }
+    .additional {
+        font-size: 16px;
+        text-align: center;
+    }
+}
