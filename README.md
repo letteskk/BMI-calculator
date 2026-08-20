@@ -15,7 +15,7 @@
 ## What is it?
 BMI Calculator is a program for calculating body mass index (ratio of body mass to height squared).
 
-## How do I oopen it?
+## How do I open it?
 To open this website, you shoud follow this link: <https://letteskk.github.io/BMI-calculator/>. The website can be opened on a computer, tablet and mobile phone.
 
 ## How do I use it?
