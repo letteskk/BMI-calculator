@@ -11,7 +11,9 @@
 
 ## Кредиты
 Автор: <https://github.com/letteskk>
+
 Макет страницы: <https://www.figma.com/design/ExHB7IVbmoAf2dmyRbvuBg/Untitled?node-id=0-1&t=Iv9P6Gl7rQTh4lV7-1> 
+
 Изображения флагов: <https://www.figma.com/design/6Md7hFNYdEFCTteHY82xNw/Flags-of-325-countries--Community-?node-id=0-1&t=EsaWj6ozGg40oqmk-1>
 
 # BMI Calculator
@@ -27,5 +29,7 @@ Input your height and weight in the corresponding fields, choose your sex and cl
 
 # Credits
 Author: <https://github.com/letteskk>
+
 Page layout: <https://www.figma.com/design/ExHB7IVbmoAf2dmyRbvuBg/Untitled?node-id=0-1&t=Iv9P6Gl7rQTh4lV7-1> 
+
 Images of flags: <https://www.figma.com/design/6Md7hFNYdEFCTteHY82xNw/Flags-of-325-countries--Community-?node-id=0-1&t=EsaWj6ozGg40oqmk-1>
