@@ -11,36 +11,36 @@
 </head>
 <body>
     <header>
-        <img class="lang_flag" src="Group 3.png">
-        <h1>Калькулятор ИМТ</h1>
+        <img class="lang_flag" src="rus_flag.png" id="flag">
+        <h1 id="header">Калькулятор ИМТ</h1>
     </header>
 
     <main>
         <form>
             <div class="height-input">
-                <p class="height">введите ваш рост (см)</p>
+                <p class="height" id="heightInput">введите ваш рост (см)</p>
                 <input type="text" id="height">
             </div>
 
             <div class="weight-input">
-                <p class="weight">введите ваш вес (кг)</p>
+                <p class="weight" id="weightInput">введите ваш вес (кг)</p>
                 <input type="text" id="weight">
             </div>
+
             <div class="sex-choice">
-                <p class="sex">ваш пол</p>
+                <p class="sex" id="sexText">ваш пол</p>
                 <div class="buttons-sex">
                     <button type="button" class="female" id="fem">женский</button>
                     <button type="button" class="male" id="male">мужской</button>
                 </div>
-            </div>
-            
+            </div>  
         </form>
+        
         <button type="submit" class="count-button" id="count-button">рассчитать</button>
-        <p class="result-text">ваш результат:</p>
+        <p class="result-text" id="resText">ваш результат:</p>
         <span class="result-number" id="result-number">00.00</span>
         <span class="additional" id="addit">(дефицит веса)</span>
     </main>
-
 
 <script src="script.js"></script>
 </body>
